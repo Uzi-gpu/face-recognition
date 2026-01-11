@@ -1,0 +1,25 @@
+# Core Computer Vision (No compilation required)
+opencv-python>=4.5.0
+tensorflow>=2.4.0
+mtcnn>=0.1.1
+
+# Image Processing
+Pillow>=8.0.0
+numpy>=1.19.0
+
+# Visualization
+matplotlib>=3.3.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# NOTE: dlib and face_recognition require CMake on Windows
+# For Windows users without build tools:
+# 1. Download pre-compiled dlib wheel from:
+#    https://github.com/sachadee/Dlib
+# 2. Install with: pip install dlib-19.22.0-cp311-cp311-win_amd64.whl
+# 3. Then: pip install face-recognition
+
+# Alternative: Use OpenCV DNN (included above) for face detection/recognition
+# Notebooks 01, 02, 04, 05 will work without dlib

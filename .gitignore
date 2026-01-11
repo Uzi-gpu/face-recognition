@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Face Recognition Specific
+# Face images and videos
+known_faces/
+test_images/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# Models (large files)
+*.caffemodel
+*.h5
+*.pkl
+*.pth
+models/
+
+# Database
+face_database.pkl
+*.db
+
+# Attendance logs
+attendance_*.csv
+logs/
+
+# Large files
+*.zip
+*.tar.gz
